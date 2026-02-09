@@ -955,6 +955,9 @@ with left:
     ### Important note
     This is not an official Square product and does not integrate with Square systems.
     All data shown is sample data for demonstration and portfolio purposes.
+                
+
+    Created by: Nik Feil-Ho
     """)
 
 
