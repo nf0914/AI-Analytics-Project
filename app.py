@@ -922,6 +922,42 @@ with left:
     styled_table = table_num.style.format(fmt, na_rep="—")
     st.dataframe(styled_table, use_container_width=True, height=560)
 
+    # ----------------------------
+# Full-width product context (below dashboard)
+# ----------------------------
+    st.divider()
+
+    st.subheader("What this is and why it matters")
+
+    st.markdown("""
+    This application is a product analytics copilot prototype designed for small and medium sized businesses.
+    It demonstrates how product level sales and customer data can be translated into clear, actionable business insights.
+
+    ### The customer problem
+    Small business owners are busy running day to day operations and often do not have time to analyze spreadsheets or interpret complex dashboards.
+    Common questions go unanswered, such as:
+    - Which products are actually driving revenue growth
+    - Where margin is being lost
+    - Which items should be promoted, bundled, or deprioritized
+    - How subscriptions and repeat customers impact performance
+
+    ### What this prototype delivers
+    This prototype is designed to reduce the effort required to turn data into decisions.
+    It does this by:
+    - Highlighting the most impactful products and trends in the current filtered scope
+    - Surfacing risks and opportunities related to growth and margin
+    - Translating metrics into simple recommendations that an owner can act on
+
+    ### Industry context
+    Modern commerce platforms such as Square capture rich data across transactions, products, customers, and subscriptions.
+    This prototype illustrates how that data can be operationalized into decision support experiences that help businesses succeed.
+
+    ### Important note
+    This is not an official Square product and does not integrate with Square systems.
+    All data shown is sample data for demonstration and portfolio purposes.
+    """)
+
+
 with right:
     st.subheader("AI Copilot")
     st.caption("This copilot analyzes the **current filtered scope** of the dashboard. Pick a workflow or ask a custom question.")
