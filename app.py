@@ -1066,7 +1066,8 @@ with right:
 
     with st.expander("About this prototype"):
         st.markdown(
-            "- Uses **synthetic data** to demonstrate product analytics workflows.\n"
-            "- Pattern: **Filters → compact payload summary → AI recommendations** (no raw table ingestion).\n"
-            "- Designed to show **AI-native UX**, structured outputs, and stateful interactions in Streamlit."
+            "- Uses synthetic data to demonstrate product analytics workflows\n"
+            "- Pattern: Filters → compact business context payload summary → structured recommendation engine (no raw table ingestion)\n"
+            "- Designed to show AI-native UX patterns, explainable outputs, and stateful interaction design in Streamlit"
+            "- Architected to support optional LLM integration while maintaining gaurdrails and deterministic logic"
         )
