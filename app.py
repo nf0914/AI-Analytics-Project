@@ -80,7 +80,7 @@ def build_scope_payload(
 ):
     payload = {
         "meta": {
-            "prototype": "AI-Powered Merchant Analytics Copilot (CoffeeShop SMB Prototype)",
+            "prototype": "Merchant Analytics Copilot (AI Product Prototype) for CoffeeShop SMB",
             "data_note": "Synthetic demo dataset",
             "rows_in_scope": int(len(filtered)),
         },
@@ -754,7 +754,7 @@ filtered = df[
 # ----------------------------
 # Title
 # ----------------------------
-st.markdown("## AI-Powered Merchant Analytics Copilot (Product Prototype) for CoffeeShop SMB")
+st.markdown("## Merchant Analytics Copilot (Product Prototype) for CoffeeShop SMB")
 
 # ----------------------------
 # KPI calculations (aggregated)
