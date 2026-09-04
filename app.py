@@ -832,7 +832,7 @@ view["subscription_share_delta_pts"] = (view["subscription_share_2025"] - view["
 view["gross_margin_delta_pts"] = (view["gross_margin_2025"] - view["gross_margin_2024"]) * 100
 
 # ----------------------------
-# Two-column layout: Table (left) + AI Copilot (right)
+# Two-column layout: Table (left) + Decision Copilot (right)
 # ----------------------------
 left, right = st.columns([2.2, 1.0], gap="large")
 
@@ -962,7 +962,7 @@ with left:
 
 
 with right:
-    st.subheader("AI Copilot")
+    st.subheader("Decision Copilot")
     st.caption("This copilot analyzes the **current filtered scope** of the dashboard. Pick a workflow or ask a custom question.")
 
     # Conversation controls + trace toggle
